@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Search"
+            android:title="查询"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/TuJian"
+            android:icon="@drawable/tujian"
+            android:title="狩猎图鉴"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/ZhuangBei"
+            android:icon="@drawable/zhuangbei"
+            android:title="装备派生"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/HuoDong"
+            android:icon="@drawable/huodong"
+            android:title="活动及特殊活动"
+            android:checked="true"/>
+    </group>
+
+    <item android:title="外网链接">
+        <menu>
+            <item
+                android:id="@+id/PeiZhuang"
+                android:icon="@drawable/peizhuang"
+                android:title="配装器"
+                android:checked="true"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/AboutUs"
+        android:title="关于我们"
+        android:icon="@drawable/about"
+        android:checked="true"/>
+</menu>
